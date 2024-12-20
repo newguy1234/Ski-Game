@@ -1,0 +1,12 @@
+# ninja log v5
+21	1405	7563450997217284	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	7ce9988395e774a
+57	1414	7563451000296768	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c6e711d52f2a629e
+1	1443	7563451002019500	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	d0311d850d69fa8d
+338	1564	7563451003355628	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2f63f82bbdaef449
+734	1586	7563451003569860	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	31c516f060028352
+1362	1608	7563451003890420	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	23addeff84a9e8f3
+704	1893	7563451006534840	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	e6e8f2d439fe6301
+776	2078	7563451008550661	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	98a815974b1d02dd
+1307	2166	7563451009370582	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4f9b3cc9e8d82040
+1609	2225	7563451009957923	C:/Users/petru/Documents/GitHub/Ski-Game/skigameForPhone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/215h3g4k/obj/arm64-v8a/libswappywrapper.so	f087bae61fe57032
+2167	2410	7563451011751233	C:/Users/petru/Documents/GitHub/Ski-Game/skigameForPhone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/215h3g4k/obj/arm64-v8a/libgame.so	f452f1bfa72e8b24
