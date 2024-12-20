@@ -12,21 +12,16 @@ public class SpawnStuff : MonoBehaviour
     void Start()
     {
         // Start spawning objects every 10 seconds
-        InvokeRepeating(nameof(SpawnObjectsAtAllPoints), 0f, 10f);
+        InvokeRepeating(nameof(SpawnObjectsAtRandomPoints), 0f, Random.Range(1f,4f));
     }
 
     // Method to spawn objects at all spawn points
-    void SpawnObjectsAtAllPoints()
-    {
-        foreach (Transform spawnPoint in spawnPoints)
-        {
-            SpawnRandomObjectAtPoint(spawnPoint);
-        }
-    }
+
 
     // Method to spawn a random object at a specific spawn point
     void SpawnRandomObjectAtPoint(Transform spawnPoint)
     {
+        Debug.Log("Spawn Check");
         // Select a random object from the array
         int randomObjectIndex = Random.Range(0, objectsToSpawn.Length);
 
