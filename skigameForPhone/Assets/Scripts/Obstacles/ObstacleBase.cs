@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MoverAndDead : MonoBehaviour
+public class ObstacleBase : MonoBehaviour , ICollider
 {
     // Speed of the object
     public float moveSpeed = 5f;
@@ -20,5 +20,10 @@ public class MoverAndDead : MonoBehaviour
     {
         // Move the object forward
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+    }
+
+    public virtual void OnCollide()
+    {
+        return;
     }
 }
