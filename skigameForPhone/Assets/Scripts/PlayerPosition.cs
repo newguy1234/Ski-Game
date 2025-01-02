@@ -24,21 +24,5 @@ public class PlayerPosition : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            CharacterMove(AvailablePositions[0]);
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            CharacterMove(AvailablePositions[1]);
-        }
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            CharacterMove(AvailablePositions[2]);
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            CharacterMove(AvailablePositions[3]);
-        }
     }
 }
